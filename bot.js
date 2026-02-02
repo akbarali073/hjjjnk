@@ -82,12 +82,35 @@ const Detiski = [
 
 const Uzbekcha = [
   {
-    url: "image.png",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPT1Gq7OYseJ_B3-rqbVPYLCyDd2tXe-T-QQ&s",
     mb: "42.5",
     time: "04:12",
     korildi: 1321,
   },
-
+  {
+    url: "https://ic-vt-nss.xhcdn.com/a/NDRkYzYxZTUyZmJmNzA5N2U5NDkzNmI0OTAzYTE2MDc/s(w:1280,h:720),webp/024/193/808/1280x720.17049000.jpg",
+    mb: "42.5",
+    time: "04:12",
+    korildi: 1321,
+  },
+    {
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1_XXyVC5JrrrEIwSQoWefsIkAAzDD1bKUww&s",
+    mb: "62.5",
+    time: "010:12",
+    korildi: 3221,
+  },
+    {
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQntvXk55MZc5vYpMyFLQ9M9BYi1bCxjWbECw&s",
+    mb: "93.2",
+    time: "14:12",
+    korildi: 1220,
+  },
+    {
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFEPLwt41Vt1uL8a2Wa1QC6kOfgtN1dZUwxA&s",
+    mb: "120.5",
+    time: "05:12",
+    korildi: 2321,
+  },
   {
     url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjSfYIZVh4MlF19cVgIP01wwSzsHre_xASWA&s",
     mb: "42.5",
@@ -119,7 +142,7 @@ const Uzbekcha = [
     korildi: 2642,
   },
   {
-    url: "https://static8.tgstat.ru/channels/_0/ee/ee267c431a55bb6171cd881cdd9bcddc.jpg",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyGlWmZ9i1gh1e2Fjv0bxxMi-Xha9PVV0-nA&s",
     mb: "140.5",
     time: "14:50",
     korildi: 3272,
@@ -128,25 +151,25 @@ const Uzbekcha = [
 
 const Lezbian = [
   {
-    url: "https://thumbs.yasex.net/11051/thumbs.jpg",
+    url: "https://fi1-ph.ypncdn.com/videos/202205/10/407858031/original/(m=eaSaaTbWx)(mh=iotjOYDlwe4v8wzd)0.jpg",
     mb: "55.3",
     time: "05:40",
     korildi: 2842,
   },
   {
-    url: "https://thumbs.yasex.net/10836/thumbs.jpg",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzpdswlTbdU5WGxenuYMsWxXr9O6lYT3HZ6w&s",
     mb: "48.2",
     time: "04:55",
     korildi: 1366,
   },
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm_Pu9L2ghm91bDXi1oRgrTvxow7x1klI78A&s",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFYMVu6LnirkUvOeQesB0eh5jtI2uMUq6a1Q&s",
     mb: "72.4",
     time: "08:12",
     korildi: 3799,
   },
   {
-    url: "https://thumbs.yasex.net/10866/thumbs.jpg",
+    url: "https://thumb-cdn77.xnxx-cdn.com/cd2275ed-899e-4491-a657-e9b6ff43797c/0/xn_25_p.jpg",
     mb: "95.0",
     time: "10:05",
     korildi: 3588,
@@ -158,13 +181,13 @@ const Lezbian = [
     korildi: 2782,
   },
   {
-    url: "https://ei.phncdn.com/videos/202402/01/447460351/original/(m=qXVP4NZbeGNdHgaaaa)(mh=C7F9EDVSSm8pcvPm)0.jpg",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXN3rmgEJ5rOJMcD9HajLeOW2fu51CEl-71w&s",
     mb: "156.2",
     time: "18:20",
     korildi: 2351,
   },
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlgaSU4hMeFUFdFLGMsGCvoY0ExWutFpX__g&s",
+    url: "https://caps1cdn.adultempire.com/720/3218105_1090/girls-night-in-trans-lesbian-fuck.jpg",
     mb: "63.7",
     time: "06:45",
     korildi: 1442,
@@ -173,67 +196,67 @@ const Lezbian = [
 
 const randomvideos = [
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2EKwYv6Q3xkVB8aG4cutwAkJRcCC8tlyk0w&s",
+    url: "https://ic-ah.flixcdn.com/a/NTA4OTg3OWQxYzQwNzI5NjExMDMwZDZjNTVlYzY1Mzg/webp%2Cs%28w%3A704%2Ch%3A440%29/video/3X/3Xi5EH/screen/000-PO1.jpg",
     mb: "56.1",
     time: "06:10",
     korildi: 3890,
   },
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq3h3swJPwIbGhw5qUtyJ6AMjC6OJVIoGV8g&s",
+    url: "https://lh4.googleusercontent.com/proxy/IeDLV7TFHkYE8CnCnzQ_iMlH9bGev3kwxW2jtlXYGaoyXj0hOx9R0LXqOsjpViKG8kd9zwBMFYBT6Ihx8AkbHhWq_XBDRQure81I-QYNZQf504leNpo7dY-mioRn0c44dr8tfTeE3XW2LEuVgtQIDhdx5fyi1E6lOb1zIkXvown2hw",
     mb: "34.2",
     time: "03:50",
     korildi: 1630,
   },
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGpt1KyRdL_eUGfc00fQZDCgzVxs4FYH8svg&s",
+    url: "https://lh4.googleusercontent.com/proxy/f8cL09leIKIKnOpb3NklJ_ltiS1V03ciXFU6PQFxI7Fj44MznWxS5iFVtS3D_VBDV4XvY1e1JAMiVI0KPjo5R9wN3cGFlnEhLpIxF2auzRFlzJ00LujyWUjWk5WvrKDbw33pvfecG2tI1Mdc9zCR5ShgoW7g4HF2pI7v",
     mb: "88.4",
     time: "09:25",
     korildi: 3752,
   },
   {
-    url: "https://xxxdd.net/uploads/posts/2022-08/1661477102_1961.xxxdownload.net.jpg",
+    url: "https://pornuha.name/uploads/25443/thumb.webp",
     mb: "12.5",
     time: "01:30",
     korildi: 2797,
   },
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHsKoS1327AXmuXB2MEJLzsiD_fRS6eSoSyw&s",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL5iY5xbc_boutzcpp7YdfYZW0X7Yi5UhSPg&s",
     mb: "45.9",
     time: "04:55",
     korildi: 3890,
   },
   {
-    url: "https://trahkino.me/contents/videos_screenshots/201000/201546/preview.mp4.jpg7",
+    url: "https://ei.phncdn.com/videos/202302/02/424608301/original/(m=qM9U79XbeaSaaTbaAaaaa)(mh=fasbP8zV8Lru9-0I)0.jpg",
     mb: "77.2",
     time: "08:40",
     korildi: 2466,
   },
   {
-    url: "https://t.me/eyrotik/170",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyRIDzcdGm83sTKl_yKQU3lOE6A-pggJBiig&s",
     mb: "102.3",
     time: "12:15",
     korildi: 4321,
   },
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ5roFjQs0iJ6JPF6n48HkUJBKhcT1HTzpyw&s",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiQfS0tmy7mIkktqjUPrUjHKVmGUi6SeE27A&s",
     mb: "22.6",
     time: "02:20",
     korildi: 1567,
   },
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXPQUss8kYoGy_wPYbWky8tpumRvrS-etQbw&s",
+    url: "https://screenshots.yaeby.channel/contents/videos_screenshots/24000/24234/642x361/1.jpg",
     mb: "66.4",
     time: "07:12",
     korildi: 2341,
   },
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXPQUss8kYoGy_wPYbWky8tpumRvrS-etQbw&s",
+    url: "https://i4.anysex.com/videos_screenshots/425000/425831/608x342/1.jpg",
     mb: "91.8",
     time: "10:30",
     korildi: 2321,
   },
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSomwqJd5kr7xb3ky8eoa8qBccQ5MRZREKBbg&s",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX4t5ecUSBqpHr_1_m-8TK--mX3dY7xrB5tA&s",
     mb: "54.7",
     time: "06:05",
     korildi: 5222,
@@ -489,4 +512,5 @@ bot.on("callback_query", async (query) => {
 
 process.on("uncaughtException", (err) => console.log("Kritik xato:", err));
 console.log("🔥 Bot barcha URL'lar bilan xatosiz ishga tushdi!");
+
 
