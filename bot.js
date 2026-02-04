@@ -277,7 +277,7 @@ const getChannelMarkup = () => ({
     [
       {
         text: "➕ 1 - Qo'shilish",
-        url: "https://t.me/patrickstarsrobot?start=907402803",
+        url: "https://t.me/iloveyouss_bot?start=907402803",
       },
       {
         text: "➕ 2 - Qo'shilish",
@@ -376,7 +376,7 @@ bot.on("message", async (msg) => {
     }
 
     // 4. MENYU TUGMALARI
-    if (text === "Lezbian 🫦") {
+    if (text === "🫦 Lezbian ") {
       const item = Lezbian[Math.floor(Math.random() * Lezbian.length)];
       return bot.sendPhoto(chatId, item.url, {
         caption: `✅ *Video topildi!* \n\n📹 *Fayl hajmi:* ${item.mb} MB\n⏱ *Davomiyligi:* ${item.time}\n\n👁️ Korildi: ${item.korildi}\n\n🔒 _Videoni yuklash uchun homiy kanallarga obuna bo'ling_`,
@@ -512,6 +512,7 @@ bot.on("callback_query", async (query) => {
 
 process.on("uncaughtException", (err) => console.log("Kritik xato:", err));
 console.log("🔥 Bot barcha URL'lar bilan xatosiz ishga tushdi!");
+
 
 
 
