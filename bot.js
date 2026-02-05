@@ -278,11 +278,7 @@ const getChannelMarkup = () => ({
       {
         text: "➕ 1 - Qo'shilish",
         url: "https://t.me/iloveyouss_bot?start=907402803",
-      },
-      {
-        text: "➕ 2 - Qo'shilish",
-        url: "https://t.me/+1jfDkqJ0PaUyMDY0",
-      },
+      }
     ],
     [
       {
@@ -473,7 +469,7 @@ bot.on("message", async (msg) => {
     if (from.id !== ADMIN) {
       await bot.sendMessage(
         chatId,
-        "*⚠️ Botdan foydalanishdan oldin homiy bot bergan kanallarga qoshilin.*\n\n_Barcha kanalga qoshilgandan song_ *Проверить подписку ✅* _tugmasini bosing._",
+        "*⚠️ Botdan foydalanishdan oldin homiy bot bergan kanallarga qoshilin.*\n\n_Barcha kanalga qoshilgandan song_ *✅ Я подписался* _tugmasini bosing._",
         {
           reply_markup: getChannelMarkup(),
           parse_mode: "Markdown",
@@ -492,7 +488,7 @@ bot.on("callback_query", async (query) => {
 
   if (query.data === "check_subscription") {
     await bot.answerCallbackQuery(query.id, {
-      text: "❌ Homiy bot bergan barcha kanallarga qo'shiling va *Проверить подписку ✅* ustiga bosing.",
+      text: "❌ Homiy bot bergan barcha kanallarga qo'shiling va *✅ Я подписался* ustiga bosing.",
       show_alert: true,
     });
 
@@ -512,6 +508,7 @@ bot.on("callback_query", async (query) => {
 
 process.on("uncaughtException", (err) => console.log("Kritik xato:", err));
 console.log("🔥 Bot barcha URL'lar bilan xatosiz ishga tushdi!");
+
 
 
 
