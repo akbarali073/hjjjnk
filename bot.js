@@ -82,49 +82,49 @@ const Detiski = [
 
 const Uzbekcha = [
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPT1Gq7OYseJ_B3-rqbVPYLCyDd2tXe-T-QQ&s",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbSdYsVdbSdojr4zUhriOydT2Xj-_l47kGlA&s",
     mb: "42.5",
     time: "04:12",
     korildi: 1321,
   },
   {
-    url: "https://ic-vt-nss.xhcdn.com/a/NDRkYzYxZTUyZmJmNzA5N2U5NDkzNmI0OTAzYTE2MDc/s(w:1280,h:720),webp/024/193/808/1280x720.17049000.jpg",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6rK4kbJP-hHxjwQnBazC4xocBRsKH9_p7zA&s",
     mb: "42.5",
     time: "04:12",
     korildi: 1321,
   },
     {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1_XXyVC5JrrrEIwSQoWefsIkAAzDD1bKUww&s",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ4uoeJ_cNCAurdXZw7Cba8vQytu8OGiPo8A&s",
     mb: "62.5",
     time: "010:12",
     korildi: 3221,
   },
     {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQntvXk55MZc5vYpMyFLQ9M9BYi1bCxjWbECw&s",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuWCurHNJaOhqUCf0iwlY_utks355Y8CYMxQ&s",
     mb: "93.2",
     time: "14:12",
     korildi: 1220,
   },
     {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFEPLwt41Vt1uL8a2Wa1QC6kOfgtN1dZUwxA&s",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXP5bBIuooD7K06sb0nLhbnYpqL2w1s7_wRA&s",
     mb: "120.5",
     time: "05:12",
     korildi: 2321,
   },
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjSfYIZVh4MlF19cVgIP01wwSzsHre_xASWA&s",
+    url: "https://gcore-pic.xnxx-cdn.com/videos/thumbs169xnxxll/11/a6/d2/11a6d24558c54d2230ed90f979000e47-3/11a6d24558c54d2230ed90f979000e47.5.jpg",
     mb: "42.5",
     time: "04:12",
     korildi: 3542,
   },
   {
-    url: "https://trahkino.me/contents/videos_screenshots/206000/206627/preview.mp4.jpg",
+    url: "https://uzporno.org/files/images/sets/c1883d3e28878ba4082c4b17222c27e1.2.jpg",
     mb: "115.0",
     time: "11:45",
     korildi: 2573,
   },
   {
-    url: "https://trahkino.me/contents/videos_screenshots/260000/260474/preview.mp4.jpg",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRSMsJIiHzRAw3F725q4gDfOLJE_jXXRZLpw&s",
     mb: "30.2",
     time: "03:10",
     korildi: 1634,
@@ -142,7 +142,7 @@ const Uzbekcha = [
     korildi: 2642,
   },
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyGlWmZ9i1gh1e2Fjv0bxxMi-Xha9PVV0-nA&s",
+    url: "https://ic-vt-nss.xhcdn.com/a/NTQ3Yjk3NDIwM2Q1NzAxYzc0NTY4YWYxMmIwYzVjYWM/s(w:2560,h:1440),webp/028/438/826/v2/2560x1440.232.webp",
     mb: "140.5",
     time: "14:50",
     korildi: 3272,
@@ -151,19 +151,19 @@ const Uzbekcha = [
 
 const Lezbian = [
   {
-    url: "https://fi1-ph.ypncdn.com/videos/202205/10/407858031/original/(m=eaSaaTbWx)(mh=iotjOYDlwe4v8wzd)0.jpg",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrlO2qXWLH5NgXxuv9aWn2KI9KzM-kUSF5CQ&s",
     mb: "55.3",
     time: "05:40",
     korildi: 2842,
   },
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzpdswlTbdU5WGxenuYMsWxXr9O6lYT3HZ6w&s",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ78QqL2xi75fqYBAxMxYOZ1BepBe6G5VKpSw&s",
     mb: "48.2",
     time: "04:55",
     korildi: 1366,
   },
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFYMVu6LnirkUvOeQesB0eh5jtI2uMUq6a1Q&s",
+    url: "https://trahkino.me/contents/videos_screenshots/137000/137617/preview.mp4.jpg",
     mb: "72.4",
     time: "08:12",
     korildi: 3799,
@@ -181,7 +181,7 @@ const Lezbian = [
     korildi: 2782,
   },
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXN3rmgEJ5rOJMcD9HajLeOW2fu51CEl-71w&s",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpSiR4MZcLIRh4UcKGy6NPzUgwyQviAEHfvQ&s",
     mb: "156.2",
     time: "18:20",
     korildi: 2351,
@@ -196,25 +196,25 @@ const Lezbian = [
 
 const randomvideos = [
   {
-    url: "https://ic-ah.flixcdn.com/a/NTA4OTg3OWQxYzQwNzI5NjExMDMwZDZjNTVlYzY1Mzg/webp%2Cs%28w%3A704%2Ch%3A440%29/video/3X/3Xi5EH/screen/000-PO1.jpg",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4sz1LGbnlyC2uTLTPhCnU-sLaUVkFFmpbwA&s",
     mb: "56.1",
     time: "06:10",
     korildi: 3890,
   },
   {
-    url: "https://lh4.googleusercontent.com/proxy/IeDLV7TFHkYE8CnCnzQ_iMlH9bGev3kwxW2jtlXYGaoyXj0hOx9R0LXqOsjpViKG8kd9zwBMFYBT6Ihx8AkbHhWq_XBDRQure81I-QYNZQf504leNpo7dY-mioRn0c44dr8tfTeE3XW2LEuVgtQIDhdx5fyi1E6lOb1zIkXvown2hw",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_eSTOWTfr1ag7zsGm9IU7UW4euvZKOJ7B0A&s",
     mb: "34.2",
     time: "03:50",
     korildi: 1630,
   },
   {
-    url: "https://lh4.googleusercontent.com/proxy/f8cL09leIKIKnOpb3NklJ_ltiS1V03ciXFU6PQFxI7Fj44MznWxS5iFVtS3D_VBDV4XvY1e1JAMiVI0KPjo5R9wN3cGFlnEhLpIxF2auzRFlzJ00LujyWUjWk5WvrKDbw33pvfecG2tI1Mdc9zCR5ShgoW7g4HF2pI7v",
+    url: "https://ic-vt-nss.xhcdn.com/a/OTg0M2NmNzY4OTc2OTljODg0MDkxY2MwMWRhNTc5YTU/s(w:1280,h:720),webp/028/436/501/1280x720.17675160.jpg",
     mb: "88.4",
     time: "09:25",
     korildi: 3752,
   },
   {
-    url: "https://pornuha.name/uploads/25443/thumb.webp",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSWB04pp_tcxQZChnDjP5qULrsCVjk9yke3g&s",
     mb: "12.5",
     time: "01:30",
     korildi: 2797,
@@ -226,7 +226,7 @@ const randomvideos = [
     korildi: 3890,
   },
   {
-    url: "https://ei.phncdn.com/videos/202302/02/424608301/original/(m=qM9U79XbeaSaaTbaAaaaa)(mh=fasbP8zV8Lru9-0I)0.jpg",
+    url: "https://ei.phncdn.com/videos/202408/03/456016661/original/(m=qMG_8QZbeaSaaTbaAaaaa)(mh=Qwkq3hXpMflerBTN)0.jpg",
     mb: "77.2",
     time: "08:40",
     korildi: 2466,
@@ -250,7 +250,7 @@ const randomvideos = [
     korildi: 2341,
   },
   {
-    url: "https://i4.anysex.com/videos_screenshots/425000/425831/608x342/1.jpg",
+    url: "https://ic-vt-nss.xhcdn.com/a/ZmEzMThkNTQyOTQ0NWYxMDc1NTc1M2M4MDE3NzhhYWU/s(w:1280,h:720),webp/024/718/143/1280x720.17169398.jpg",
     mb: "91.8",
     time: "10:30",
     korildi: 2321,
@@ -512,6 +512,7 @@ bot.on("callback_query", async (query) => {
 
 process.on("uncaughtException", (err) => console.log("Kritik xato:", err));
 console.log("🔥 Bot barcha URL'lar bilan xatosiz ishga tushdi!");
+
 
 
 
