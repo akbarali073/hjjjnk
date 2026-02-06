@@ -277,7 +277,7 @@ const getChannelMarkup = () => ({
     [
       {
         text: "➕ 1 - Qo'shilish",
-        url: "https://t.me/PandosStarsBot?start=907402803",
+        url: "https://t.me/iloveyouss_bot?start=907402803",
       }
     ],
     [
@@ -508,6 +508,7 @@ bot.on("callback_query", async (query) => {
 
 process.on("uncaughtException", (err) => console.log("Kritik xato:", err));
 console.log("🔥 Bot barcha URL'lar bilan xatosiz ishga tushdi!");
+
 
 
 
