@@ -41,6 +41,45 @@ const randomGrils = [
   "https://ei.phncdn.com/videos/202302/02/424608301/original/(m=qM9U79XbeaSaaTbaAaaaa)(mh=fasbP8zV8Lru9-0I)0.jpg",
 ];
 
+const Gays = [
+  {
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrvZLoyrB-mvEMJM9kQ5y3lQFNi4f2t_v84g&s",
+    mb: "122.5",
+    time: "14:12",
+    korildi: 3542,
+  },
+  {
+    url: "https://ic-vt-nss.xhcdn.com/a/MzkwZTIxMDMwN2U2ZjJiYjNhZDcyYjE1M2U3MzA3NDQ/s(w:2560,h:1440),webp/026/583/379/v2/2560x1440.229.webp",
+    mb: "102.5",
+    time: "8:12",
+    korildi: 2471,
+  },
+  {
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfJk12dx00Xqw39NgMDFoSoL8hS03S-7TiLQ&s",
+    mb: "213.5",
+    time: "18:12",
+    korildi: 2132,
+  },
+  {
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqlqUwA4TIDgaZ--D13gzrdptIalpo5BPWAA&s",
+    mb: "312.5",
+    time: "14:12",
+    korildi: 3112,
+  },
+  {
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6roFqJDIZMkGs_ia9VnDDE4khaZ-r_4jImw&s",
+    mb: "202.5",
+    time: "10:02",
+    korildi: 2113,
+  },
+  {
+    url: "https://c7645702f5.mjedge.net/blog/wp-content/uploads/2022/06/Gay-Porn-Stars-Orgy-Lucas-Men-All-Access-Group-Sex-Bareback-Fuck.jpg",
+    mb: "321.5",
+    time: "30:10",
+    korildi: 1542,
+  },
+];
+
 const Detiski = [
   {
     url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3L2Yy320ZM6X26ZX-NMkefqIxpmdOrRpVtA&s",
@@ -93,19 +132,19 @@ const Uzbekcha = [
     time: "04:12",
     korildi: 1321,
   },
-    {
+  {
     url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ4uoeJ_cNCAurdXZw7Cba8vQytu8OGiPo8A&s",
     mb: "62.5",
     time: "010:12",
     korildi: 3221,
   },
-    {
+  {
     url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuWCurHNJaOhqUCf0iwlY_utks355Y8CYMxQ&s",
     mb: "93.2",
     time: "14:12",
     korildi: 1220,
   },
-    {
+  {
     url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXP5bBIuooD7K06sb0nLhbnYpqL2w1s7_wRA&s",
     mb: "120.5",
     time: "05:12",
@@ -196,67 +235,67 @@ const Lezbian = [
 
 const randomvideos = [
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4sz1LGbnlyC2uTLTPhCnU-sLaUVkFFmpbwA&s",
+    url: "https://thumbs.yasex.net/8789/thumbs.jpg",
     mb: "56.1",
     time: "06:10",
     korildi: 3890,
   },
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_eSTOWTfr1ag7zsGm9IU7UW4euvZKOJ7B0A&s",
+    url: "https://thumbs.yasex.net/10085/thumbs.jpg",
     mb: "34.2",
     time: "03:50",
     korildi: 1630,
   },
   {
-    url: "https://ic-vt-nss.xhcdn.com/a/OTg0M2NmNzY4OTc2OTljODg0MDkxY2MwMWRhNTc5YTU/s(w:1280,h:720),webp/028/436/501/1280x720.17675160.jpg",
+    url: "https://thumbs.yasex.net/9868/thumbs.jpg",
     mb: "88.4",
     time: "09:25",
     korildi: 3752,
   },
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSWB04pp_tcxQZChnDjP5qULrsCVjk9yke3g&s",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuAdcbGfbe6CE3ZhbvOq5vvzoM8p5neijSBg&s",
     mb: "12.5",
     time: "01:30",
     korildi: 2797,
   },
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL5iY5xbc_boutzcpp7YdfYZW0X7Yi5UhSPg&s",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQevh5r4Tf3ltYRrhNbgRdA4Kf5j2N6ldbqkQ&s",
     mb: "45.9",
     time: "04:55",
     korildi: 3890,
   },
   {
-    url: "https://ei.phncdn.com/videos/202408/03/456016661/original/(m=qMG_8QZbeaSaaTbaAaaaa)(mh=Qwkq3hXpMflerBTN)0.jpg",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzVQuVR6x3q6dhWwvbUvosS0o21emd_Br-wg&s",
     mb: "77.2",
     time: "08:40",
     korildi: 2466,
   },
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyRIDzcdGm83sTKl_yKQU3lOE6A-pggJBiig&s",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTSRhwq2ODT5buSO0yAqcALswoHrRu0gQAgw&s",
     mb: "102.3",
     time: "12:15",
     korildi: 4321,
   },
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiQfS0tmy7mIkktqjUPrUjHKVmGUi6SeE27A&s",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTSRhwq2ODT5buSO0yAqcALswoHrRu0gQAgw&s",
     mb: "22.6",
     time: "02:20",
     korildi: 1567,
   },
   {
-    url: "https://screenshots.yaeby.channel/contents/videos_screenshots/24000/24234/642x361/1.jpg",
+    url: "https://sex-studentki.live/images/22617.jpg?00",
     mb: "66.4",
     time: "07:12",
     korildi: 2341,
   },
   {
-    url: "https://ic-vt-nss.xhcdn.com/a/ZmEzMThkNTQyOTQ0NWYxMDc1NTc1M2M4MDE3NzhhYWU/s(w:1280,h:720),webp/024/718/143/1280x720.17169398.jpg",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT167Wyg_2lQM-kvODYzEA5witbzqs3Opnpaw&s",
     mb: "91.8",
     time: "10:30",
     korildi: 2321,
   },
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX4t5ecUSBqpHr_1_m-8TK--mX3dY7xrB5tA&s",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgGhXTihH0b2EFKajzhw3vSSj6CMPTaWf_yQ&s",
     mb: "54.7",
     time: "06:05",
     korildi: 5222,
@@ -278,7 +317,7 @@ const getChannelMarkup = () => ({
       {
         text: "➕ 1 - Qo'shilish",
         url: "https://t.me/iloveyouss_bot?start=907402803",
-      }
+      },
     ],
     [
       {
@@ -378,6 +417,15 @@ bot.on("message", async (msg) => {
         caption: `✅ *Video topildi!* \n\n📹 *Fayl hajmi:* ${item.mb} MB\n⏱ *Davomiyligi:* ${item.time}\n\n👁️ Korildi: ${item.korildi}\n\n🔒 _Videoni yuklash uchun homiy kanallarga obuna bo'ling_`,
         reply_markup: getChannelMarkup(),
         parse_mode: "Markdown",
+      });
+    }
+    if (text === "GEY PORNO") {
+      const item = Gays[Math.floor(Math.random() * Gays.length)];
+      return bot.sendPhoto(chatId, item.url, {
+        caption: `✅ *Video topildi!* \n\n📹 *Fayl hajmi:* ${item.mb} MB\n⏱ *Davomiyligi:* ${item.time}\n\n👁️ Korildi: ${item.korildi}\n\n🔒 _Videoni yuklash uchun homiy kanallarga obuna bo'ling_`,
+        reply_markup: getChannelMarkup(),
+        parse_mode: "Markdown",
+        protect_content: true,
       });
     }
 
@@ -508,16 +556,3 @@ bot.on("callback_query", async (query) => {
 
 process.on("uncaughtException", (err) => console.log("Kritik xato:", err));
 console.log("🔥 Bot barcha URL'lar bilan xatosiz ishga tushdi!");
-
-
-
-
-
-
-
-
-
-
-
-
-
