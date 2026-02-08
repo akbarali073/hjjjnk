@@ -319,10 +319,10 @@ const getChannelMarkup = () => ({
         url: "https://t.me/panjara_ortida_prison_berk",
       },
     ],
-        [
+    [
       {
         text: "➕ 2 - Qo'shilish",
-        url: "hhttps://t.me/iloveyouss_bot?start=907402803",
+        url: "https://t.me/iloveyouss_bot?start=907402803",
       },
     ],
     [
@@ -562,6 +562,7 @@ bot.on("callback_query", async (query) => {
 
 process.on("uncaughtException", (err) => console.log("Kritik xato:", err));
 console.log("🔥 Bot barcha URL'lar bilan xatosiz ishga tushdi!");
+
 
 
 
