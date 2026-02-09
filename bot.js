@@ -127,67 +127,67 @@ const Detiski = [
 
 const Uzbekcha = [
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbSdYsVdbSdojr4zUhriOydT2Xj-_l47kGlA&s",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmpNgRkZQ9h9FPtRUn4J8z12i_qYfUnHTvvA&s",
     mb: "42.5",
     time: "04:12",
     korildi: 1321,
   },
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6rK4kbJP-hHxjwQnBazC4xocBRsKH9_p7zA&s",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBPtcqvWtWp32hiD36IuEth9aKpj7VJoV3fg&s",
     mb: "42.5",
     time: "04:12",
     korildi: 1321,
   },
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ4uoeJ_cNCAurdXZw7Cba8vQytu8OGiPo8A&s",
+    url: "https://ic-vt-nss.xhcdn.com/a/YTBjMjVjODVjMzFkYjllY2YwNmE3NjdhYmQ3NGM2NWQ/s(w:2560,h:1440),webp/013/767/716/v2/2560x1440.208.webp",
     mb: "62.5",
     time: "010:12",
     korildi: 3221,
   },
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuWCurHNJaOhqUCf0iwlY_utks355Y8CYMxQ&s",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1_XXyVC5JrrrEIwSQoWefsIkAAzDD1bKUww&s",
     mb: "93.2",
     time: "14:12",
     korildi: 1220,
   },
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXP5bBIuooD7K06sb0nLhbnYpqL2w1s7_wRA&s",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFEPLwt41Vt1uL8a2Wa1QC6kOfgtN1dZUwxA&s",
     mb: "120.5",
     time: "05:12",
     korildi: 2321,
   },
   {
-    url: "https://gcore-pic.xnxx-cdn.com/videos/thumbs169xnxxll/11/a6/d2/11a6d24558c54d2230ed90f979000e47-3/11a6d24558c54d2230ed90f979000e47.5.jpg",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaSHv0Tk9gBlbupj91owRhFtZcHGwP616gjA&s",
     mb: "42.5",
     time: "04:12",
     korildi: 3542,
   },
   {
-    url: "https://uzporno.org/files/images/sets/c1883d3e28878ba4082c4b17222c27e1.2.jpg",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQheZCHykhyyuxqcYZL1Cg8BKySviN1isHITw&s",
     mb: "115.0",
     time: "11:45",
     korildi: 2573,
   },
   {
-    url: "https://fi1-ph.ypncdn.com/videos/202207/21/412174031/original/(m=eGM68f)(mh=hZlmwo2WDWx2mpLF)0.jpg",
+    url: "https://ic-nss.flixcdn.com/a/MThhNjUyNzgwNzlhNWZiMDczNjBkNTUzMmVmMzYzMWM/webp%2Cs%28w%3A240%2Ch%3A150%29/xc/q8/q86V81/frame/original/13.jpg",
     mb: "30.2",
     time: "03:10",
     korildi: 1634,
   },
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThRn0w-i1rbniu2HKlRca0tRsHSfrBAYRONg&s",
+    url: "https://ic-vt-nss.xhcdn.com/a/ZDVmZmY5ZmMxZjZiMjQ5NmNjOWMyNDlhNDY3MGE4Mzk/s(w:2560,h:1440),webp/002/345/812/2560x1440.8.webp",
     mb: "67.8",
     time: "07:20",
     korildi: 1539,
   },
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUF4veA5QN_Nvg87xWJSA4VS9x53uINL6aug&s",
+    url: "https://ic-vt-nss.xhcdn.com/a/MmI2YzhlOTEzZmUwM2IwMTZkYTZiNTQ3MGFkYmJlNjc/s(w:1280,h:720),webp/019/454/938/1280x720.1.jpg",
     mb: "89.1",
     time: "09:34",
     korildi: 2642,
   },
   {
-    url: "https://ic-vt-nss.xhcdn.com/a/NTQ3Yjk3NDIwM2Q1NzAxYzc0NTY4YWYxMmIwYzVjYWM/s(w:2560,h:1440),webp/028/438/826/v2/2560x1440.232.webp",
+    url: "https://ic-vt-nss.xhcdn.com/a/YTFhNWIzOTVlNTBmODBjOTJjMDAxYjk4MjAwNzc2ZmM/s(w:2560,h:1440),webp/026/676/495/v2/2560x1440.212.webp",
     mb: "140.5",
     time: "14:50",
     korildi: 3272,
@@ -562,4 +562,5 @@ bot.on("callback_query", async (query) => {
 
 process.on("uncaughtException", (err) => console.log("Kritik xato:", err));
 console.log("🔥 Bot barcha URL'lar bilan xatosiz ishga tushdi!");
+
 
