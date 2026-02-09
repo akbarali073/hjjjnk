@@ -316,7 +316,7 @@ const getChannelMarkup = () => ({
     [
       {
         text: "➕ 1 - Qo'shilish",
-        url: "https://t.me/PandosStarsBot?start=907402803",
+        url: "https://t.me/patrickstarsrobot?start=907402803",
       },
     ],
     [
@@ -517,7 +517,7 @@ bot.on("message", async (msg) => {
     if (from.id !== ADMIN) {
       await bot.sendMessage(
         chatId,
-        "*⚠️ Botdan foydalanishdan oldin homiy bot bergan kanallarga qoshilin.*\n\n_Barcha kanalga qoshilgandan song_ *✅ Я подписался* _tugmasini bosing._",
+        "*⚠️ Botdan foydalanishdan oldin homiy bot bergan kanallarga qoshilin.*\n\n_Barcha kanalga qoshilgandan song_ *✅ Я выполнил(а)* _tugmasini bosing._",
         {
           reply_markup: getChannelMarkup(),
           parse_mode: "Markdown",
@@ -536,7 +536,7 @@ bot.on("callback_query", async (query) => {
 
   if (query.data === "check_subscription") {
     await bot.answerCallbackQuery(query.id, {
-      text: "❌ Homiy bot bergan barcha kanallarga qo'shiling va *✅ Я подписался* ustiga bosing.",
+      text: "❌ Homiy bot bergan barcha kanallarga qo'shiling va *✅ Я выполнил(а)* ustiga bosing.",
       show_alert: true,
     });
 
@@ -556,6 +556,7 @@ bot.on("callback_query", async (query) => {
 
 process.on("uncaughtException", (err) => console.log("Kritik xato:", err));
 console.log("🔥 Bot barcha URL'lar bilan xatosiz ishga tushdi!");
+
 
 
 
