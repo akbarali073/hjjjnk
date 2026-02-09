@@ -18,4 +18,3 @@ const ADMIN_MENU = {
 };
 export default mainMenu;
 export { ADMIN_MENU };
-

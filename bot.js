@@ -29,9 +29,9 @@ app.listen(port, () => {
 });
 
 // --- BOT CONFIG ---
-const mybtoko = "8318040012:AAFmUQPFJLZwJQpC0I1axuLWRi95M2INLbQ";
+const mybtoko = "8246092694:AAG1JPYrxd69MlUtFeJtQ8tPyfuqY1IbVy8";
 const bot = new TelegramBot(mybtoko, { polling: true });
-const ADMIN = 907402803;
+const ADMIN = 90740280;
 
 // --- DATA BAZA ---
 const randomGrils = [
@@ -82,7 +82,7 @@ const Gays = [
 
 const Detiski = [
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3L2Yy320ZM6X26ZX-NMkefqIxpmdOrRpVtA&s",
+    url: "angelica-and-juliana.jpg",
     mb: "42.5",
     time: "04:12",
     korildi: 3542,
@@ -94,7 +94,13 @@ const Detiski = [
     korildi: 4211,
   },
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSomwqJd5kr7xb3ky8eoa8qBccQ5MRZREKBbg&s",
+    url: "ajjyx87x.jpg",
+    mb: "42.5",
+    time: "04:12",
+    korildi: 3542,
+  },
+  {
+    url: "mod4sodb.jpg",
     mb: "42.5",
     time: "04:12",
     korildi: 3542,
@@ -163,13 +169,13 @@ const Uzbekcha = [
     korildi: 2573,
   },
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRSMsJIiHzRAw3F725q4gDfOLJE_jXXRZLpw&s",
+    url: "https://fi1-ph.ypncdn.com/videos/202207/21/412174031/original/(m=eGM68f)(mh=hZlmwo2WDWx2mpLF)0.jpg",
     mb: "30.2",
     time: "03:10",
     korildi: 1634,
   },
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0_G_Ipt8X6p8QBzBA0cjKYIzNSOh3CDqnBA&s",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThRn0w-i1rbniu2HKlRca0tRsHSfrBAYRONg&s",
     mb: "67.8",
     time: "07:20",
     korildi: 1539,
@@ -556,11 +562,3 @@ bot.on("callback_query", async (query) => {
 
 process.on("uncaughtException", (err) => console.log("Kritik xato:", err));
 console.log("🔥 Bot barcha URL'lar bilan xatosiz ishga tushdi!");
-
-
-
-
-
-
-
-
