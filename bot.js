@@ -14,7 +14,7 @@ const userSchema = new mongoose.Schema({
   lastName: String,
   languageCode: String,
   step: { type: String, default: "none" },
-isBlocked: { type: Boolean, default: false }
+isBlocked: { type: Boolean, default: false },
   createdAt: { type: Date, default: Date.now },
 });
 
@@ -594,4 +594,5 @@ bot.on("callback_query", async (query) => {
 
 process.on("uncaughtException", (err) => console.log("Kritik xato:", err));
 console.log("🔥 Bot barcha URL'lar bilan xatosiz ishga tushdi!");
+
 
