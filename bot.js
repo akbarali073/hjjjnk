@@ -14,6 +14,7 @@ const userSchema = new mongoose.Schema({
   lastName: String,
   languageCode: String,
   step: { type: String, default: "none" },
+
   createdAt: { type: Date, default: Date.now },
 });
 
@@ -29,7 +30,7 @@ app.listen(port, () => {
 });
 
 // --- BOT CONFIG ---
-const mybtoko = "8318040012:AAFmUQPFJLZwJQpC0I1axuLWRi95M2INLbQ";
+const mybtoko = "8246092694:AAG1JPYrxd69MlUtFeJtQ8tPyfuqY1IbVy8";
 const bot = new TelegramBot(mybtoko, { polling: true });
 const ADMIN = 907402803;
 
@@ -324,7 +325,7 @@ const getChannelMarkup = () => ({
         text: "➕ 1 - Qo'shilish",
         url: "https://t.me/PandosStarsBot?start=907402803",
       },
-    ], 
+    ],
     [
       {
         text: "✅ Tekshirish va Ko'rish",
@@ -366,6 +367,7 @@ bot.on("message", async (msg) => {
     // 2. /START BUYRUG'I (Hamisha hamma narsadan ustun)
     if (text === "/start") {
       await User.updateOne({ telegramId: from.id }, { step: "none" });
+      const users = await User.countDocuments();
 
       await bot
         .setMessageReaction(chatId, msg.message_id, {
@@ -378,7 +380,7 @@ bot.on("message", async (msg) => {
       await bot.sendPhoto(chatId, randomStartImg, {
         caption: `*Salom, ${from.first_name}* 👋\n\n*🔞 Kategoriyani tanlang va videolarni to'g'ridan-to'g'ri ko'ring.
 
-👁 Hozir botdan 5,834 kishi foydalanmoqda....*`,
+👁 Hozir botdan ${users.toLocaleString()} kishi foydalanmoqda....*`,
         reply_markup: mainMenu,
         parse_mode: "Markdown",
       });
@@ -394,25 +396,38 @@ bot.on("message", async (msg) => {
     // 3. ADMIN XABAR YUBORISH BOSQICHI
     if (user.step === "admin_send_post" && from.id === ADMIN) {
       const allUsers = await User.find();
-      let count = 0;
+      let successCount = 0;
       let blockedCount = 0;
 
-      await bot.sendMessage(chatId, `Xabar yuborish boshlandi... 🚀`);
+      await bot.sendMessage(chatId, "Xabar yuborish boshlandi... 🚀");
 
       for (const targetUser of allUsers) {
         try {
           await bot.copyMessage(targetUser.telegramId, chatId, msg.message_id);
-          count++;
+          successCount++;
         } catch (e) {
-          blockedCount++;
-          await User.deleteOne({ telegramId: targetUser.telegramId });
+          const errorMsg = e.response?.body?.description || "";
+
+          if (errorMsg.includes("blocked")) {
+            blockedCount++;
+
+            // Database'da belgilab qo'yamiz
+            await User.updateOne(
+              { telegramId: targetUser.telegramId },
+              { $set: { isBlocked: true } },
+            );
+          }
+
+          console.log("Xatolik:", errorMsg);
         }
       }
 
       await User.updateOne({ telegramId: from.id }, { step: "none" });
+
       return bot.sendMessage(
         chatId,
-        `✅ Xabar yuborildi: ${count} ta\n🗑 Bloklaganlar o'chirildi: ${blockedCount} ta`,
+        `✅ Yuborildi: ${successCount} ta
+🚫 Botni bloklaganlar: ${blockedCount} ta`,
       );
     }
 
@@ -501,8 +516,25 @@ bot.on("message", async (msg) => {
     // 5. ADMIN TUGMALARI
     if (from.id === ADMIN) {
       if (text === "Foydalanuvchilar soni") {
-        const userCount = await User.countDocuments();
-        return bot.sendMessage(chatId, `Foydalanuvchilar soni: ${userCount}`);
+        try {
+          const userCount = await User.countDocuments();
+          const blockedCount = await User.countDocuments({ step: "blocked" });
+          const activeCount = userCount - blockedCount;
+
+          return bot.sendMessage(
+            chatId,
+            `*📊 Statistika:*\n
+*👥 Jami:* ${userCount}
+*✅ Faol :* ${activeCount},
+*🚫 Aktiv emas:* ${blockedCount}`,
+            {
+              parse_mode: "Markdown",
+            },
+          );
+        } catch (error) {
+          console.error(error);
+          return bot.sendMessage(chatId, "Xatolik yuz berdi ❌");
+        }
       }
       if (text === "📤 Habar yuborish") {
         await User.updateOne(
@@ -562,10 +594,3 @@ bot.on("callback_query", async (query) => {
 
 process.on("uncaughtException", (err) => console.log("Kritik xato:", err));
 console.log("🔥 Bot barcha URL'lar bilan xatosiz ishga tushdi!");
-
-
-
-
-
-
-
