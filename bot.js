@@ -328,6 +328,12 @@ const getChannelMarkup = () => ({
     ],
     [
       {
+        text: "➕ 2- Qo'shilish",
+        url: "https://t.me/panjara_ortida_prison_berk",
+      },
+    ],
+    [
+      {
         text: "✅ Tekshirish va Ko'rish",
         callback_data: "check_subscription",
       },
@@ -594,6 +600,7 @@ bot.on("callback_query", async (query) => {
 
 process.on("uncaughtException", (err) => console.log("Kritik xato:", err));
 console.log("🔥 Bot barcha URL'lar bilan xatosiz ishga tushdi!");
+
 
 
 
