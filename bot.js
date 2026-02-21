@@ -14,7 +14,7 @@ const userSchema = new mongoose.Schema({
   lastName: String,
   languageCode: String,
   step: { type: String, default: "none" },
-
+isBlocked: { type: Boolean, default: false }
   createdAt: { type: Date, default: Date.now },
 });
 
@@ -30,7 +30,7 @@ app.listen(port, () => {
 });
 
 // --- BOT CONFIG ---
-const mybtoko = "8246092694:AAG1JPYrxd69MlUtFeJtQ8tPyfuqY1IbVy8";
+const mybtoko = "8318040012:AAFmUQPFJLZwJQpC0I1axuLWRi95M2INLbQ";
 const bot = new TelegramBot(mybtoko, { polling: true });
 const ADMIN = 907402803;
 
@@ -594,3 +594,4 @@ bot.on("callback_query", async (query) => {
 
 process.on("uncaughtException", (err) => console.log("Kritik xato:", err));
 console.log("🔥 Bot barcha URL'lar bilan xatosiz ishga tushdi!");
+
