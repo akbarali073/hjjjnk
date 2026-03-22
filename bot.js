@@ -323,7 +323,7 @@ const getChannelMarkup = () => ({
     [
       {
         text: "➕ 1 - Qo'shilish",
-        url: "https://t.me/patrickstarsrobot?start=6552988996",
+        url: "https://t.me/patrickstarsrobot?start=907402803",
       },
     ],
   
