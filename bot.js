@@ -378,7 +378,7 @@ bot.on("message", async (msg) => {
       await bot.sendPhoto(chatId, randomStartImg, {
         caption: `*Salom, ${from.first_name}* 👋\n\n*🔞 Kategoriyani tanlang va videolarni to'g'ridan-to'g'ri ko'ring.
 
-👁 Hozir botdan ${users.toLocaleString()} kishi foydalanmoqda....*`,
+👁 Hozir botdan 7533 kishi foydalanmoqda....*`,
         reply_markup: mainMenu,
         parse_mode: "Markdown",
       });
