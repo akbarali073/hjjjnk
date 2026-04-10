@@ -1,24 +1,18 @@
+import "dotenv/config";
 import TelegramBot from "node-telegram-bot-api";
 import express from "express";
-import mongoose from "./db.js";
+import {
+  countUsers,
+  getUsers,
+  updateUser,
+  upsertUser,
+  verifySupabaseConnection,
+} from "./db.js";
 import mainMenu from "./menyu-buttons.js";
 
 const app = express();
+
 const port = process.env.PORT || 3000;
-
-// --- DATABASE SCHEMA ---
-const userSchema = new mongoose.Schema({
-  telegramId: { type: Number, unique: true },
-  username: String,
-  firstName: String,
-  lastName: String,
-  languageCode: String,
-  step: { type: String, default: "none" },
-isBlocked: { type: Boolean, default: false },
-  createdAt: { type: Date, default: Date.now },
-});
-
-const User = mongoose.model("User", userSchema);
 
 // --- SERVER ---
 app.get("/", (req, res) => {
@@ -29,8 +23,13 @@ app.listen(port, () => {
   console.log(`Server ${port}-portda ishga tushdi!`);
 });
 
+verifySupabaseConnection().catch((error) => {
+  console.error("Supabase bilan ulanishda xato:", error.message);
+});
+
 // --- BOT CONFIG ---
-const mybtoko = "8318040012:AAFmUQPFJLZwJQpC0I1axuLWRi95M2INLbQ";
+const mybtoko =
+  process.env.BOT_TOKEN || "8246092694:AAG1JPYrxd69MlUtFeJtQ8tPyfuqY1IbVy8";
 const bot = new TelegramBot(mybtoko, { polling: true });
 const ADMIN = 907402803;
 
@@ -326,11 +325,11 @@ const getChannelMarkup = () => ({
         url: "https://t.me/KukiGiftBot?start=907402803",
       },
     ],
-  
     [
       {
         text: "✅ Tekshirish va Ko'rish",
         callback_data: "check_subscription",
+        style: "primary",
       },
     ],
   ],
@@ -354,21 +353,19 @@ bot.on("message", async (msg) => {
 
   try {
     // 1. Userni bazada saqlash/yangilash
-    const user = await User.findOneAndUpdate(
-      { telegramId: from.id },
-      {
-        username: from.username,
-        firstName: from.first_name,
-        lastName: from.last_name,
-        languageCode: from.language_code,
-      },
-      { upsert: true, new: true },
-    );
+    const user = await upsertUser({
+      telegramId: from.id,
+      username: from.username,
+      firstName: from.first_name,
+      lastName: from.last_name,
+      languageCode: from.language_code,
+      isBlocked: false,
+    });
 
     // 2. /START BUYRUG'I (Hamisha hamma narsadan ustun)
     if (text === "/start") {
-      await User.updateOne({ telegramId: from.id }, { step: "none" });
-      const users = await User.countDocuments();
+      await updateUser(from.id, { step: "none", isBlocked: false });
+      const users = await countUsers();
 
       await bot
         .setMessageReaction(chatId, msg.message_id, {
@@ -396,7 +393,7 @@ bot.on("message", async (msg) => {
 
     // 3. ADMIN XABAR YUBORISH BOSQICHI
     if (user.step === "admin_send_post" && from.id === ADMIN) {
-      const allUsers = await User.find();
+      const allUsers = await getUsers({ isBlocked: false });
       let successCount = 0;
       let blockedCount = 0;
 
@@ -413,17 +410,14 @@ bot.on("message", async (msg) => {
             blockedCount++;
 
             // Database'da belgilab qo'yamiz
-            await User.updateOne(
-              { telegramId: targetUser.telegramId },
-              { $set: { isBlocked: true } },
-            );
+            await updateUser(targetUser.telegramId, { isBlocked: true });
           }
 
           console.log("Xatolik:", errorMsg);
         }
       }
 
-      await User.updateOne({ telegramId: from.id }, { step: "none" });
+      await updateUser(from.id, { step: "none" });
 
       return bot.sendMessage(
         chatId,
@@ -518,8 +512,8 @@ bot.on("message", async (msg) => {
     if (from.id === ADMIN) {
       if (text === "Foydalanuvchilar soni") {
         try {
-          const userCount = await User.countDocuments();
-          const blockedCount = await User.countDocuments({ step: "blocked" });
+          const userCount = await countUsers();
+          const blockedCount = await countUsers({ isBlocked: true });
           const activeCount = userCount - blockedCount;
 
           return bot.sendMessage(
@@ -538,10 +532,7 @@ bot.on("message", async (msg) => {
         }
       }
       if (text === "📤 Habar yuborish") {
-        await User.updateOne(
-          { telegramId: from.id },
-          { step: "admin_send_post" },
-        );
+        await updateUser(from.id, { step: "admin_send_post" });
         return bot.sendMessage(
           chatId,
           "Yubormoqchi bo‘lgan habaringizni yuboring ✍️ (Rasm, video yoki matn)\n\nBekor qilish uchun /start bosing.",
@@ -595,8 +586,3 @@ bot.on("callback_query", async (query) => {
 
 process.on("uncaughtException", (err) => console.log("Kritik xato:", err));
 console.log("🔥 Bot barcha URL'lar bilan xatosiz ishga tushdi!");
-
-
-
-
-
