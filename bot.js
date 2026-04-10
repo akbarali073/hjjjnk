@@ -29,7 +29,7 @@ verifySupabaseConnection().catch((error) => {
 
 // --- BOT CONFIG ---
 const mybtoko =
-  process.env.BOT_TOKEN || "8246092694:AAG1JPYrxd69MlUtFeJtQ8tPyfuqY1IbVy8";
+  process.env.BOT_TOKEN || "8318040012:AAFmUQPFJLZwJQpC0I1axuLWRi95M2INLbQ";
 const bot = new TelegramBot(mybtoko, { polling: true });
 const ADMIN = 907402803;
 
