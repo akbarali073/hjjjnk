@@ -35,7 +35,7 @@ const ADMIN = 907402803;
 
 // --- DATA BAZA ---
 const randomGrils = [
-  "https://t.me/c/3024273308/4581"
+  "https://t.me/c/3024273308/4581",
   "https://rusporn.porn/thumbs/18545/thumb1.1.jpg",
   "https://ei.phncdn.com/videos/202504/17/467407535/original/(m=qH10JG0beaSaaTbaAaaaa)(mh=uaYzqfZa_Lzbhv0Z)0.jpg",
   "https://ic-vt-nss.xhcdn.com/a/MjNiMjNhNGEwNWZlMTE2ZDMxNzdmMWZjNDBiOGNhOTA/s(w:1280,h:720),webp/025/479/908/1280x720.17317671.jpg",
