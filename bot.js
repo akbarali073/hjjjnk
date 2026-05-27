@@ -35,6 +35,7 @@ const ADMIN = 907402803;
 
 // --- DATA BAZA ---
 const randomGrils = [
+  "https://t.me/c/3024273308/4581"
   "https://rusporn.porn/thumbs/18545/thumb1.1.jpg",
   "https://ei.phncdn.com/videos/202504/17/467407535/original/(m=qH10JG0beaSaaTbaAaaaa)(mh=uaYzqfZa_Lzbhv0Z)0.jpg",
   "https://ic-vt-nss.xhcdn.com/a/MjNiMjNhNGEwNWZlMTE2ZDMxNzdmMWZjNDBiOGNhOTA/s(w:1280,h:720),webp/025/479/908/1280x720.17317671.jpg",
@@ -376,9 +377,9 @@ bot.on("message", async (msg) => {
       const randomStartImg =
         randomGrils[Math.floor(Math.random() * randomGrils.length)];
       await bot.sendPhoto(chatId, randomStartImg, {
-        caption: `*Salom, ${from.first_name}* 👋\n\n*🔞 Kategoriyani tanlang va videolarni to'g'ridan-to'g'ri ko'ring.
+        caption: `*Salom, ${from.first_name}* 👋\n\n*Botda hozirda 750+ turdagi pornolar mavjuda 🔞 Kategoriyani tanlang va videolarni to'g'ridan-to'g'ri ko'ring.
 
-👁 Hozir botdan 7533 kishi foydalanmoqda....*`,
+👁 Hozir jami 8514 kishi foydalanmoqda....*`,
         reply_markup: mainMenu,
         parse_mode: "Markdown",
       });
@@ -547,7 +548,7 @@ bot.on("message", async (msg) => {
     if (from.id !== ADMIN) {
       await bot.sendMessage(
         chatId,
-        "*⚠️ Botdan foydalanishdan oldin homiy bot bergan kanallarga qoshilin.*\n\n_Barcha kanalga qoshilgandan song_ *✅ Проверить падписки* _tugmasini bosing._",
+        "*⚠️ Botdan foydalanishdan oldin homiy bot bergan kanallarga qoshilin.*\n\n_Barcha kanalga qoshilgandan song_ *Готово, проверить ✅* _tugmasini bosing._",
         {
           reply_markup: getChannelMarkup(),
           parse_mode: "Markdown",
@@ -566,7 +567,7 @@ bot.on("callback_query", async (query) => {
 
   if (query.data === "check_subscription") {
     await bot.answerCallbackQuery(query.id, {
-      text: "❌ Homiy bot bergan barcha kanallarga qo'shiling va *✅ Проверить падписки* ustiga bosing.",
+      text: "❌ Homiy bot bergan barcha kanallarga qo'shiling va *Готово, проверить ✅* ustiga bosing.",
       show_alert: true,
     });
 
