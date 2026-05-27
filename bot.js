@@ -35,7 +35,7 @@ const ADMIN = 907402803;
 
 // --- DATA BAZA ---
 const randomGrils = [
-  "https://t.me/c/3024273308/4581",
+  "https://www.perfectgirls.xxx/pornstars/jenny-kitty/",
   "https://rusporn.porn/thumbs/18545/thumb1.1.jpg",
   "https://ei.phncdn.com/videos/202504/17/467407535/original/(m=qH10JG0beaSaaTbaAaaaa)(mh=uaYzqfZa_Lzbhv0Z)0.jpg",
   "https://ic-vt-nss.xhcdn.com/a/MjNiMjNhNGEwNWZlMTE2ZDMxNzdmMWZjNDBiOGNhOTA/s(w:1280,h:720),webp/025/479/908/1280x720.17317671.jpg",
@@ -242,25 +242,25 @@ const Lezbian = [
 
 const randomvideos = [
   {
-    url: "https://t.me/c/2478617206/7342",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShBq3NansRLWitRL2XxCPamjCaji6RGvSkCA&s",
     mb: "56.1",
     time: "06:10",
     korildi: 3890,
   },
   {
-    url: "https://t.me/c/2478617206/7335",
+    url: "https://tn.vxxx.com/contents/models/171235/r333x393_1.jpg",
     mb: "34.2",
     time: "03:50",
     korildi: 1630,
   },
   {
-    url: "https://thumbs.yasex.net/9868/thumbs.jpg",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7ikmj6Gx6V_44Qij-GD8tajcaVypRnGxogg&s",
     mb: "88.4",
     time: "09:25",
     korildi: 3752,
   },
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuAdcbGfbe6CE3ZhbvOq5vvzoM8p5neijSBg&s",
+    url: "https://sex.batsa.pro/files/screens/1/6034/malyishka-sola-zola-v-pornuhe-na-russkom-yazyike-s-parnem_full.webp",
     mb: "12.5",
     time: "01:30",
     korildi: 2797,
@@ -290,7 +290,7 @@ const randomvideos = [
     korildi: 1567,
   },
   {
-    url: "https://sex-studentki.live/images/22617.jpg?00",
+    url: "https://tatitictic.com/contents/videos_screenshots/10000/10221/428x242/1.jpg",
     mb: "66.4",
     time: "07:12",
     korildi: 2341,
@@ -573,7 +573,7 @@ bot.on("callback_query", async (query) => {
 
     bot
       .editMessageCaption(
-        `❌ *Obuna tasdiqlanmadi!* \n\nIltimos, yuqoridagi kanallarga a'zo bo'ling va pastdagi tugmani qayta bosing.`,
+        `❌ *Obuna tasdiqlanmadi!* \n\nIltimos, yuqoridagi homiy bot bergan kanallarga a'zo bo'ling va pastdagi tugmani qayta bosing.`,
         {
           chat_id: chatId,
           message_id: messageId,
