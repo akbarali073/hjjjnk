@@ -242,13 +242,13 @@ const Lezbian = [
 
 const randomvideos = [
   {
-    url: "https://thumbs.yasex.net/8789/thumbs.jpg",
+    url: "https://t.me/c/2478617206/7342",
     mb: "56.1",
     time: "06:10",
     korildi: 3890,
   },
   {
-    url: "https://thumbs.yasex.net/10085/thumbs.jpg",
+    url: "https://t.me/c/2478617206/7335",
     mb: "34.2",
     time: "03:50",
     korildi: 1630,
