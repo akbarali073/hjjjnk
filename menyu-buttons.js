@@ -4,7 +4,7 @@ const mainMenu = {
     ["🇷🇺 Ruscha", "🇺🇸 Inglizcha"],
     ["🫦 Lezbian ", "👧 Detski sex"],
     ["🔥 Top Videolar", "Random 🎲"],
-    ["GEY PORNO"],
+ 
   ],
   resize_keyboard: true,
 };
