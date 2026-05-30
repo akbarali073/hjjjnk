@@ -323,7 +323,7 @@ const getChannelMarkup = () => ({
     [
       {
         text: "➕ 1 - Qo'shilish",
-        url: "https://t.me/KukiGiftBot?start=907402803",
+        url: "https://t.me/perecvpvpbot?start=ref_907402803",
       },
     ],
     [
@@ -431,7 +431,7 @@ bot.on("message", async (msg) => {
     if (text === "🫦 Lezbian") {
       const item = Lezbian[Math.floor(Math.random() * Lezbian.length)];
       return bot.sendPhoto(chatId, item.url, {
-        caption: `✅ *Video topildi!* \n\n📹 *Fayl hajmi:* ${item.mb} MB\n⏱ *Davomiyligi:* ${item.time}\n\n👁️ Korildi: ${item.korildi}\n\n🔒 _Videoni yuklash uchun homiy kanallarga obuna bo'ling_`,
+        caption: `✅ *Video topildi!* \n\n📹 *Fayl hajmi:* ${item.mb} MB\n⏱ *Davomiyligi:* ${item.time}\n\n👁️ Korildi: ${item.korildi}\n\n🔒 _Videoni yuklash uchun homiy BOT ga obuna bo'ling_`,
         reply_markup: getChannelMarkup(),
         parse_mode: "Markdown",
       });
@@ -439,7 +439,7 @@ bot.on("message", async (msg) => {
     if (text === "GEY PORNO") {
       const item = Gays[Math.floor(Math.random() * Gays.length)];
       return bot.sendPhoto(chatId, item.url, {
-        caption: `✅ *Video topildi!* \n\n📹 *Fayl hajmi:* ${item.mb} MB\n⏱ *Davomiyligi:* ${item.time}\n\n👁️ Korildi: ${item.korildi}\n\n🔒 _Videoni yuklash uchun homiy kanallarga obuna bo'ling_`,
+        caption: `✅ *Video topildi!* \n\n📹 *Fayl hajmi:* ${item.mb} MB\n⏱ *Davomiyligi:* ${item.time}\n\n👁️ Korildi: ${item.korildi}\n\n🔒 _Videoni yuklash uchun homiy BOT ga obuna bo'ling_`,
         reply_markup: getChannelMarkup(),
         parse_mode: "Markdown",
         protect_content: true,
@@ -449,7 +449,7 @@ bot.on("message", async (msg) => {
     if (text === "🇺🇿 Uzbekcha seks") {
       const item = Uzbekcha[Math.floor(Math.random() * Uzbekcha.length)];
       return bot.sendPhoto(chatId, item.url, {
-        caption: `✅ *Video topildi!* \n\n📹 *Fayl hajmi:* ${item.mb} MB\n⏱ *Davomiyligi:* ${item.time}\n\n👁️ Korildi: ${item.korildi}\n\n🔒 _Videoni yuklash uchun homiy kanallarga obuna bo'ling_`,
+        caption: `✅ *Video topildi!* \n\n📹 *Fayl hajmi:* ${item.mb} MB\n⏱ *Davomiyligi:* ${item.time}\n\n👁️ Korildi: ${item.korildi}\n\n🔒 _Videoni yuklash uchun homiy BOT ga obuna bo'ling_`,
         reply_markup: getChannelMarkup(),
         parse_mode: "Markdown",
       });
@@ -483,7 +483,7 @@ bot.on("message", async (msg) => {
           const item =
             randomvideos[Math.floor(Math.random() * randomvideos.length)];
           await bot.sendPhoto(chatId, item.url, {
-            caption: `✅ *Video topildi!* \n\n📹 *Fayl hajmi:* ${item.mb} MB\n⏱ *Davomiyligi:* ${item.time}\n\n👁️ Korildi: ${item.korildi}\n\n🔒 _Videoni yuklash uchun homiy kanallarga obuna bo'ling_`,
+            caption: `✅ *Video topildi!* \n\n📹 *Fayl hajmi:* ${item.mb} MB\n⏱ *Davomiyligi:* ${item.time}\n\n👁️ Korildi: ${item.korildi}\n\n🔒 _Videoni yuklash uchun homiy BOT ga obuna bo'ling_`,
             reply_markup: getChannelMarkup(),
             parse_mode: "Markdown",
           });
@@ -495,7 +495,7 @@ bot.on("message", async (msg) => {
     if (text === "👧 Detski sex") {
       const item = Detiski[Math.floor(Math.random() * Detiski.length)];
       return bot.sendPhoto(chatId, item.url, {
-        caption: `✅ *Video topildi!* \n\n📹 *Fayl hajmi:* ${item.mb} MB\n⏱ *Davomiyligi:* ${item.time}\n\n👁️ Korildi: ${item.korildi}\n\n🔒 _Videoni yuklash uchun homiy kanallarga obuna bo'ling_`,
+        caption: `✅ *Video topildi!* \n\n📹 *Fayl hajmi:* ${item.mb} MB\n⏱ *Davomiyligi:* ${item.time}\n\n👁️ Korildi: ${item.korildi}\n\n🔒 _Videoni yuklash uchun homiy BOT ga obuna bo'ling_`,
         reply_markup: getChannelMarkup(),
         parse_mode: "Markdown",
       });
@@ -503,7 +503,7 @@ bot.on("message", async (msg) => {
     if (text === "315") {
       const item = BONU[Math.floor(Math.random() * BONU.length)];
       return bot.sendPhoto(chatId, item.url, {
-        caption: `✅ *Video topildi!* \n\n📹 *Fayl hajmi:* ${item.mb} MB\n⏱ *Davomiyligi:* ${item.time}\n\n👁️ Korildi: ${item.korildi}\n\n🔒 _Videoni yuklash uchun homiy kanallarga obuna bo'ling_`,
+        caption: `✅ *Video topildi!* \n\n📹 *Fayl hajmi:* ${item.mb} MB\n⏱ *Davomiyligi:* ${item.time}\n\n👁️ Korildi: ${item.korildi}\n\n🔒 _Videoni yuklash uchun homiy BOT ga obuna bo'ling_`,
         parse_mode: "Markdown",
         reply_markup: getChannelMarkup(),
       });
@@ -548,7 +548,7 @@ bot.on("message", async (msg) => {
     if (from.id !== ADMIN) {
       await bot.sendMessage(
         chatId,
-        "*⚠️ Botdan foydalanishdan oldin homiy bot bergan kanallarga qoshilin.*\n\n_Barcha kanalga qoshilgandan song_ *Готово, проверить ✅* _tugmasini bosing._",
+        "*⚠️ Botdan foydalanishdan oldin homiy bot bergan kanallarga qoshilin.*\n\n🚀 Davom etish uchun quyidagi shartlarni bajaring: \n\n1️⃣ Quyidagi tugma orqali botga o'ting.\n\n2️⃣ Bot xabar yuboradi - “ Перейти в приложение ” tugmasini bosing.\n\n3️⃣ Ilovani 10 soniya davomida oching.\n\n4️⃣ Tekshirish tugmasini bosing.",
         {
           reply_markup: getChannelMarkup(),
           parse_mode: "Markdown",
