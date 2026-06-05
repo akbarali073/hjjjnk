@@ -323,7 +323,7 @@ const getChannelMarkup = () => ({
     [
       {
         text: "➕ 1 - Qo'shilish",
-        url: "https://t.me/perecvpvpbot?start=ref_907402803",
+        url: "https://t.me/KukiGiftBot?start=907402803",
       },
     ],
     [
@@ -548,7 +548,7 @@ bot.on("message", async (msg) => {
     if (from.id !== ADMIN) {
       await bot.sendMessage(
         chatId,
-        "*⚠️ Botdan foydalanishdan oldin homiy bot bergan kanallarga qoshilin.*\n\n🚀 Davom etish uchun quyidagi shartlarni bajaring: \n\n1️⃣ Quyidagi tugma orqali botga o'ting.\n\n2️⃣ Bot xabar yuboradi - “ Перейти в приложение ” tugmasini bosing.\n\n3️⃣ Ilovani 10 soniya davomida oching.\n\n4️⃣ Tekshirish tugmasini bosing.",
+        "*⚠️ Botdan foydalanishdan oldin homiy bot bergan kanallarga qoshilin.*\n\n🚀 Davom etish uchun quyidagi shartlarni bajaring va Video ni tomosha qiling.",
         {
           reply_markup: getChannelMarkup(),
           parse_mode: "Markdown",
