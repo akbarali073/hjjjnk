@@ -128,25 +128,25 @@ const Detiski = [
 
 const Uzbekcha = [
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmpNgRkZQ9h9FPtRUn4J8z12i_qYfUnHTvvA&s",
+    url: "https://ic-vt-nss.xhcdn.com/a/YzViZjJjOWZmYzU1YzE1MzU4NzE4NjNiY2MyMjc1YTM/s(w:2560,h:1440),webp/028/864/352/v2/2560x1440.214.webp",
     mb: "42.5",
     time: "04:12",
     korildi: 1321,
   },
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBPtcqvWtWp32hiD36IuEth9aKpj7VJoV3fg&s",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF7Y4Ov6COYSCQdk9QKe_OW_Pkd4_qBRdLUw&s",
     mb: "42.5",
     time: "04:12",
     korildi: 1321,
   },
   {
-    url: "https://ic-vt-nss.xhcdn.com/a/YTBjMjVjODVjMzFkYjllY2YwNmE3NjdhYmQ3NGM2NWQ/s(w:2560,h:1440),webp/013/767/716/v2/2560x1440.208.webp",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1_XXyVC5JrrrEIwSQoWefsIkAAzDD1bKUww&s",
     mb: "62.5",
     time: "010:12",
     korildi: 3221,
   },
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1_XXyVC5JrrrEIwSQoWefsIkAAzDD1bKUww&s",
+    url: "https://img.rusoska.pics/contents/videos_screenshots/191000/191489/452x254/3.jpg",
     mb: "93.2",
     time: "14:12",
     korildi: 1220,
@@ -158,37 +158,37 @@ const Uzbekcha = [
     korildi: 2321,
   },
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaSHv0Tk9gBlbupj91owRhFtZcHGwP616gjA&s",
+    url: "https://thumb-cdn77.xnxx-cdn.com/6f800c2a-abe7-4027-a757-826127783b48/0/xn_5_t.jpg",
     mb: "42.5",
     time: "04:12",
     korildi: 3542,
   },
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQheZCHykhyyuxqcYZL1Cg8BKySviN1isHITw&s",
+    url: "https://huivpizde.com/uploads/posts/2022-11/1668280941_2-huivpizde-com-p-porno-uzbek-seks-rasmlar-2.jpg",
     mb: "115.0",
     time: "11:45",
     korildi: 2573,
   },
   {
-    url: "https://ic-nss.flixcdn.com/a/MThhNjUyNzgwNzlhNWZiMDczNjBkNTUzMmVmMzYzMWM/webp%2Cs%28w%3A240%2Ch%3A150%29/xc/q8/q86V81/frame/original/13.jpg",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMO6K-FdsylTYBuZX-01HcrnByxUXZ-FnxyA&s",
     mb: "30.2",
     time: "03:10",
     korildi: 1634,
   },
   {
-    url: "https://ic-vt-nss.xhcdn.com/a/ZDVmZmY5ZmMxZjZiMjQ5NmNjOWMyNDlhNDY3MGE4Mzk/s(w:2560,h:1440),webp/002/345/812/2560x1440.8.webp",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMO6K-FdsylTYBuZX-01HcrnByxUXZ-FnxyA&s",
     mb: "67.8",
     time: "07:20",
     korildi: 1539,
   },
   {
-    url: "https://ic-vt-nss.xhcdn.com/a/MmI2YzhlOTEzZmUwM2IwMTZkYTZiNTQ3MGFkYmJlNjc/s(w:1280,h:720),webp/019/454/938/1280x720.1.jpg",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjUGexN7ZD-gLVvbtyNc0LKI8YYWBKUQ7nrg&s",
     mb: "89.1",
     time: "09:34",
     korildi: 2642,
   },
   {
-    url: "https://ic-vt-nss.xhcdn.com/a/YTFhNWIzOTVlNTBmODBjOTJjMDAxYjk4MjAwNzc2ZmM/s(w:2560,h:1440),webp/026/676/495/v2/2560x1440.212.webp",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyipNZSMapUPVP5GxlV-gIZqMyzOBtyh7pNg&s",
     mb: "140.5",
     time: "14:50",
     korildi: 3272,
@@ -197,58 +197,64 @@ const Uzbekcha = [
 
 const Lezbian = [
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrlO2qXWLH5NgXxuv9aWn2KI9KzM-kUSF5CQ&s",
+    url: "https://responsive.xxxbp.tv/aa2341448efe9f5af86d3ac120d1c337cd/645000/645072/1/nathaly-cherie-amateur-scissoring-studentents.jpg?aspect_ratio=16:9&width=480",
     mb: "55.3",
     time: "05:40",
     korildi: 2842,
   },
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ78QqL2xi75fqYBAxMxYOZ1BepBe6G5VKpSw&s",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe17w5EE11SFypHExiRg9bQaXCo-a1Pi4M2w&s",
     mb: "48.2",
     time: "04:55",
     korildi: 1366,
   },
   {
-    url: "https://trahkino.me/contents/videos_screenshots/137000/137617/preview.mp4.jpg",
+    url: "https://fi1-ph.ypncdn.com/videos/202311/06/442532231/original/(m=eGM68f)(mh=6R6q6rYzBamMDrZR)6.jpg",
     mb: "72.4",
     time: "08:12",
     korildi: 3799,
   },
   {
-    url: "https://thumb-cdn77.xnxx-cdn.com/cd2275ed-899e-4491-a657-e9b6ff43797c/0/xn_25_p.jpg",
+    url: "https://thumb-cdn77.xnxx-cdn.com/d84e5a35-d49f-4e04-a78b-9f98add78fbe/0/xn_18_t.jpg",
     mb: "95.0",
     time: "10:05",
     korildi: 3588,
   },
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0YMWfGFsNe_DoBf5PQmJKMLsj6Wt6MOnJOQ&s",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWUmFc5jOSMG0zYME3o0OqUMEdmiR4eYUvuQ&s",
     mb: "110.6",
     time: "12:30",
     korildi: 2782,
   },
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpSiR4MZcLIRh4UcKGy6NPzUgwyQviAEHfvQ&s",
+    url: "https://look.buleporn.com/bbbfeeaeaa10ad88d5403370b8c6200efc/668000/668952/103/lesbian-nude-blondes-massage-embrace.jpg?aspect_ratio=16:9&width=640",
     mb: "156.2",
     time: "18:20",
     korildi: 2351,
   },
   {
-    url: "https://caps1cdn.adultempire.com/720/3218105_1090/girls-night-in-trans-lesbian-fuck.jpg",
+    url: "https://thumbs.hqmediago.com/czechlesbians.com/e005p7/orig/hot-632x355-3187637820.jpg?gavZrZMTE5qL70N9orbyNZkOz5-eUBbO7PceSQX6aah1dqEw4nHi9UGdB0Z_6f90QOGX2jPleyUNBBBWVg8slnHyvMYBiaYU1SWyJ0F110CgJwyM3UdvhIKKw_XlqPB7PH7_vQ",
     mb: "63.7",
     time: "06:45",
     korildi: 1442,
+  },
+    {
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0xUvwGFxlxfhNcaqzptxC0BMWVONItEDu5g&s",
+    mb: "43.7",
+    time: "15:45",
+    korildi: 5372,
   },
 ];
 
 const randomvideos = [
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShBq3NansRLWitRL2XxCPamjCaji6RGvSkCA&s",
+    url: "https://pimpbunny.com/contents/videos_screenshots/464000/464986/preview_720p.mp4.jpg",
     mb: "56.1",
     time: "06:10",
     korildi: 3890,
   },
   {
-    url: "https://fap.onl/uploads/photos/2024/09/Fap_b14981880896ef661624809156410b03.webp",
+    url: "https://footjob-hd.net/wp-content/uploads/2020/09/Socksjob-With-Alice-Redlips-Short-Version-Alice-Redlips.jpg",
     mb: "34.2",
     time: "03:50",
     korildi: 1630,
